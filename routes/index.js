@@ -10,10 +10,9 @@ router.get('/', function(req, res, next) {
   	err.status = 400;
   	next(err);
   } else {
-  	var qs = req.query;
   	async.parallel({
-  	    lyft: function(callback1) { lyft(qs, callback1) },
-  	    uber: function(callback2) { uber(qs, callback2) },
+  	    lyft: function(callback) { lyft(req.query, callback) },
+  	    uber: function(callback) { uber(req.query, callback) },
   	}, function(err, results) {
   		res.json(results)
   	});
