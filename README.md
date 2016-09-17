@@ -28,7 +28,7 @@ everything is a query param. set these query params and you're good to go
 
 `seat_count`: seat count for requesting uberpools. can be either `1` or `2`. does nothing for lyft.
 
-this will return an object with 2 keys, `lyft` and `uber`. currently it just returns the standard api response for each. no transformations are applied yet. you can read about those api responses here ([uber[(https://developer.uber.com/docs/rides/api/v1-estimates-price), [lyft](https://developer.lyft.com/docs/availability-cost)).
+this will return an object with 2 keys, `lyft` and `uber`. currently it just returns the standard api response for each. no transformations are applied yet. you can read about those api responses here ([uber](https://developer.uber.com/docs/rides/api/v1-estimates-price), [lyft](https://developer.lyft.com/docs/availability-cost)).
 
 ## license
 
