@@ -1,0 +1,11 @@
+branch-defaults:
+  default:
+    environment: comparison
+    group_suffix: null
+global:
+  application_name: comparison
+  default_ec2_keyname: null
+  default_platform: Node.js
+  default_region: us-west-1
+  profile: null
+  sc: null
