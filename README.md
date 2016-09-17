@@ -10,7 +10,7 @@ init your env variables with your API keys!
   export LYFT_CLIENT_SECRET=YOUR_LYFT_CLIENT_SECRET
 ```
 
-then just `npm install && npm run` and you're good to go
+then just `npm install && npm start` and you're good to go
 
 ## api interface
 

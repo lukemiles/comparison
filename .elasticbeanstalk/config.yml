@@ -2,6 +2,8 @@ branch-defaults:
   default:
     environment: comparison
     group_suffix: null
+  master:
+    environment: comparison
 global:
   application_name: comparison
   default_ec2_keyname: null
